@@ -1,5 +1,7 @@
 # Windows2008-R2-standard---Active-Directory-LDAP
 Windows2008 R2 standard - Active Directory(LDAP) 搭建
+引用我的CSDN文档-Windows2008 R2 standard - Active Directory(LDAP) 搭建(https://blog.csdn.net/hanjupiter/article/details/104588116)
+
 什么是LDAP？
 LDAP（Light Directory Access Portocol）是一种协议，是以树形结构来展示账户信息的一种方式。
 通俗的说，就是不需要用关系型数据库自己建表的方式来管理企业各部门的用户信息。
