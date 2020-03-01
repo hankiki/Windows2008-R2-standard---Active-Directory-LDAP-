@@ -1,6 +1,5 @@
 # Windows2008-R2-standard---Active-Directory-LDAP
 Windows2008 R2 standard - Active Directory(LDAP) 搭建
-
 什么是LDAP？
 LDAP（Light Directory Access Portocol）是一种协议，是以树形结构来展示账户信息的一种方式。
 通俗的说，就是不需要用关系型数据库自己建表的方式来管理企业各部门的用户信息。
@@ -139,5 +138,3 @@ Step3:
 | 1 | 用户输入用户名zhangsan，密码为1进行第三方系统登录 |连接到LDAP认证相关API|
 | 2 | 使用默认管理员itadmin的DN及密码进行LDAP登录，在设定指定范围内（例如整个DC（DC=abcdefg,DC=local））进行检索sAMAccountName属性为zhangsan的用户 |返回zhangsan用的DN值（CN=zhangsan,OU=财务部,DC=abcdefg,DC=local）|
 | 3| LDAP认证相关API，使用zhangsan的DN值（CN=zhangsan,OU=财务部,DC=abcdefg,DC=local）加张三的密码进行LDAP服务器登录 |登录成功，查看相关权限，跳转到指定权限画面|
-
-
